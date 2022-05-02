@@ -10,7 +10,8 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "example:dev":"npm -C example run dev"
   },
   "devDependencies": {
     "@ritem/core": "workspace:*",
