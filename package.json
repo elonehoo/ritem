@@ -16,6 +16,8 @@
   "devDependencies": {
     "@ritem/core": "workspace:*",
     "@ritem/footer":"workspace:*",
+    "@ritem/hi":"workspace:*",
+    "@ritem/all":"workspace:*",
     "@elonehoo/eslint-config": "^2.0.0",
     "@iconify-json/carbon": "^1.1.4",
     "@types/node": "^17.0.31",

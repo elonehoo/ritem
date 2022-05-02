@@ -6,8 +6,10 @@ importers:
     specifiers:
       '@elonehoo/eslint-config': ^2.0.0
       '@iconify-json/carbon': ^1.1.4
+      '@ritem/all': workspace:*
       '@ritem/core': workspace:*
       '@ritem/footer': workspace:*
+      '@ritem/hi': workspace:*
       '@types/node': ^17.0.31
       '@types/react': ^18.0.0
       '@types/react-dom': ^18.0.0
@@ -28,8 +30,10 @@ importers:
     devDependencies:
       '@elonehoo/eslint-config': 2.0.0_eslint@8.14.0+typescript@4.6.4
       '@iconify-json/carbon': 1.1.4
+      '@ritem/all': link:packages/all
       '@ritem/core': link:packages/core
       '@ritem/footer': link:packages/footer
+      '@ritem/hi': link:packages/hi
       '@types/node': 17.0.31
       '@types/react': 18.0.8
       '@types/react-dom': 18.0.3
@@ -41,6 +45,40 @@ importers:
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
       react-router-dom: 6.3.0_react-dom@18.1.0+react@18.1.0
+      rimraf: 3.0.2
+      typescript: 4.6.4
+      unbuild: 0.7.4
+      unocss: 0.32.8_vite@2.9.6
+      vite: 2.9.6
+      vitest: 0.10.0
+
+  packages/all:
+    specifiers:
+      '@iconify-json/carbon': ^1.1.4
+      '@types/node': ^17.0.31
+      '@types/react': ^18.0.0
+      '@types/react-dom': ^18.0.0
+      '@unocss/reset': ^0.32.8
+      '@vitejs/plugin-react': ^1.3.0
+      bumpp: ^7.1.1
+      react: ^18.0.0
+      react-dom: ^18.0.0
+      rimraf: ^3.0.2
+      typescript: ^4.6.3
+      unbuild: ^0.7.4
+      unocss: ^0.32.8
+      vite: ^2.9.5
+      vitest: ^0.10.0
+    devDependencies:
+      '@iconify-json/carbon': 1.1.4
+      '@types/node': 17.0.31
+      '@types/react': 18.0.8
+      '@types/react-dom': 18.0.3
+      '@unocss/reset': 0.32.8
+      '@vitejs/plugin-react': 1.3.1
+      bumpp: 7.1.1
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
       rimraf: 3.0.2
       typescript: 4.6.4
       unbuild: 0.7.4
@@ -83,6 +121,40 @@ importers:
       vitest: 0.10.0
 
   packages/footer:
+    specifiers:
+      '@iconify-json/carbon': ^1.1.4
+      '@types/node': ^17.0.31
+      '@types/react': ^18.0.0
+      '@types/react-dom': ^18.0.0
+      '@unocss/reset': ^0.32.8
+      '@vitejs/plugin-react': ^1.3.0
+      bumpp: ^7.1.1
+      react: ^18.0.0
+      react-dom: ^18.0.0
+      rimraf: ^3.0.2
+      typescript: ^4.6.3
+      unbuild: ^0.7.4
+      unocss: ^0.32.8
+      vite: ^2.9.5
+      vitest: ^0.10.0
+    devDependencies:
+      '@iconify-json/carbon': 1.1.4
+      '@types/node': 17.0.31
+      '@types/react': 18.0.8
+      '@types/react-dom': 18.0.3
+      '@unocss/reset': 0.32.8
+      '@vitejs/plugin-react': 1.3.1
+      bumpp: 7.1.1
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
+      rimraf: 3.0.2
+      typescript: 4.6.4
+      unbuild: 0.7.4
+      unocss: 0.32.8_vite@2.9.6
+      vite: 2.9.6
+      vitest: 0.10.0
+
+  packages/hi:
     specifiers:
       '@iconify-json/carbon': ^1.1.4
       '@types/node': ^17.0.31
