@@ -9,7 +9,7 @@ class Props{
 function Main(props:Props) {
   return (
       <div className="App">
-        <div className="text-4xl inline-block i-carbon-area-custom" />
+        <div className="text-4xl inline-block i-carbon-navaid-ndb-dme" />
 
         <p>Ritem Mini</p>
 

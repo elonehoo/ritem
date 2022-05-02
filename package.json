@@ -11,7 +11,9 @@
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "example:dev":"npm -C example run dev"
+    "example:dev":"npm -C example run dev",
+    "example:build":"npm -C example run build",
+    "example:preview":"npm -C example run preview"
   },
   "devDependencies": {
     "@ritem/core": "workspace:*",
