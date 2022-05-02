@@ -2,7 +2,7 @@
   "name": "@ritem/all",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.ts",
   "scripts": {
     "build": "rimraf dist && unbuild",
     "stub": "unbuild --stub",

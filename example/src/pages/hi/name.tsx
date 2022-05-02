@@ -2,7 +2,7 @@ import React from "react"
 import { useNavigate, useParams } from 'react-router-dom'
 import Hi from '@ritem/hi'
 
-function name(){
+function Name(){
   const { name } = useParams()
 
   const navigate = useNavigate()
@@ -16,4 +16,4 @@ function name(){
   )
 }
 
-export default name
+export default Name
