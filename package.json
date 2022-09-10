@@ -26,7 +26,7 @@
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
     "@unocss/reset": "0.45.18",
-    "@vitejs/plugin-react": "1.3.2",
+    "@vitejs/plugin-react": "2.1.0",
     "bumpp": "7.2.0",
     "eslint": "8.22.0",
     "pnpm": "7.11.0",
