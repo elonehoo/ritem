@@ -5,13 +5,13 @@ importers:
   .:
     specifiers:
       '@elonehoo/eslint-config': 2.0.0
-      '@iconify-json/carbon': 1.1.7
+      '@iconify-json/carbon': 1.1.9
       '@ritem/all': workspace:*
       '@ritem/core': workspace:*
       '@ritem/footer': workspace:*
       '@ritem/hi': workspace:*
       '@types/node': 17.0.45
-      '@types/react': 18.0.17
+      '@types/react': 18.0.19
       '@types/react-dom': 18.0.6
       '@unocss/reset': 0.45.18
       '@vitejs/plugin-react': 2.1.0
@@ -29,13 +29,13 @@ importers:
       vitest: 0.23.1
     devDependencies:
       '@elonehoo/eslint-config': 2.0.0_itqs5654cmlnjraw6gjzqacppi
-      '@iconify-json/carbon': 1.1.7
+      '@iconify-json/carbon': 1.1.9
       '@ritem/all': link:packages/all
       '@ritem/core': link:packages/core
       '@ritem/footer': link:packages/footer
       '@ritem/hi': link:packages/hi
       '@types/node': 17.0.45
-      '@types/react': 18.0.17
+      '@types/react': 18.0.19
       '@types/react-dom': 18.0.6
       '@unocss/reset': 0.45.18
       '@vitejs/plugin-react': 2.1.0_vite@3.1.0
@@ -54,9 +54,9 @@ importers:
 
   packages/all:
     specifiers:
-      '@iconify-json/carbon': 1.1.7
+      '@iconify-json/carbon': 1.1.9
       '@types/node': 17.0.45
-      '@types/react': 18.0.17
+      '@types/react': 18.0.19
       '@types/react-dom': 18.0.6
       '@unocss/reset': 0.45.18
       '@vitejs/plugin-react': 2.1.0
@@ -70,9 +70,9 @@ importers:
       vite: 3.1.0
       vitest: 0.23.1
     devDependencies:
-      '@iconify-json/carbon': 1.1.7
+      '@iconify-json/carbon': 1.1.9
       '@types/node': 17.0.45
-      '@types/react': 18.0.17
+      '@types/react': 18.0.19
       '@types/react-dom': 18.0.6
       '@unocss/reset': 0.45.18
       '@vitejs/plugin-react': 2.1.0_vite@3.1.0
@@ -88,9 +88,9 @@ importers:
 
   packages/core:
     specifiers:
-      '@iconify-json/carbon': 1.1.7
+      '@iconify-json/carbon': 1.1.9
       '@types/node': 17.0.45
-      '@types/react': 18.0.17
+      '@types/react': 18.0.19
       '@types/react-dom': 18.0.6
       '@unocss/reset': 0.45.18
       '@vitejs/plugin-react': 2.1.0
@@ -104,9 +104,9 @@ importers:
       vite: 3.1.0
       vitest: 0.23.1
     devDependencies:
-      '@iconify-json/carbon': 1.1.7
+      '@iconify-json/carbon': 1.1.9
       '@types/node': 17.0.45
-      '@types/react': 18.0.17
+      '@types/react': 18.0.19
       '@types/react-dom': 18.0.6
       '@unocss/reset': 0.45.18
       '@vitejs/plugin-react': 2.1.0_vite@3.1.0
@@ -122,9 +122,9 @@ importers:
 
   packages/footer:
     specifiers:
-      '@iconify-json/carbon': 1.1.7
+      '@iconify-json/carbon': 1.1.9
       '@types/node': 17.0.45
-      '@types/react': 18.0.17
+      '@types/react': 18.0.19
       '@types/react-dom': 18.0.6
       '@unocss/reset': 0.45.18
       '@vitejs/plugin-react': 2.1.0
@@ -138,9 +138,9 @@ importers:
       vite: 3.1.0
       vitest: 0.23.1
     devDependencies:
-      '@iconify-json/carbon': 1.1.7
+      '@iconify-json/carbon': 1.1.9
       '@types/node': 17.0.45
-      '@types/react': 18.0.17
+      '@types/react': 18.0.19
       '@types/react-dom': 18.0.6
       '@unocss/reset': 0.45.18
       '@vitejs/plugin-react': 2.1.0_vite@3.1.0
@@ -156,9 +156,9 @@ importers:
 
   packages/hi:
     specifiers:
-      '@iconify-json/carbon': 1.1.7
+      '@iconify-json/carbon': 1.1.9
       '@types/node': 17.0.45
-      '@types/react': 18.0.17
+      '@types/react': 18.0.19
       '@types/react-dom': 18.0.6
       '@unocss/reset': 0.45.18
       '@vitejs/plugin-react': 2.1.0
@@ -172,9 +172,9 @@ importers:
       vite: 3.1.0
       vitest: 0.23.1
     devDependencies:
-      '@iconify-json/carbon': 1.1.7
+      '@iconify-json/carbon': 1.1.9
       '@types/node': 17.0.45
-      '@types/react': 18.0.17
+      '@types/react': 18.0.19
       '@types/react-dom': 18.0.6
       '@unocss/reset': 0.45.18
       '@vitejs/plugin-react': 2.1.0_vite@3.1.0
@@ -640,8 +640,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-json/carbon/1.1.7:
-    resolution: {integrity: sha512-QULSpNWKaX4auIbjITDynfALdJYvOOy/xZb+aLOqCgvpBcmbz5tbqvow4r25FWtVsi4FHVpNQ8vyJZXsD1Hlxg==}
+  /@iconify-json/carbon/1.1.9:
+    resolution: {integrity: sha512-O3geRhhnE9dDDC4oT6qwBs7sdc37R9UqftiG7BP8YVDw8OcXv8i95J0ZEkIfdOXFj1Wb6kC/Uu/6VTlAqotVXg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -867,11 +867,11 @@ packages:
   /@types/react-dom/18.0.6:
     resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
-      '@types/react': 18.0.17
+      '@types/react': 18.0.19
     dev: true
 
-  /@types/react/18.0.17:
-    resolution: {integrity: sha512-38ETy4tL+rn4uQQi7mB81G7V1g0u2ryquNmsVIOKUAEIDK+3CUjZ6rSRpdvS99dNBnkLFL83qfmtLacGOTIhwQ==}
+  /@types/react/18.0.19:
+    resolution: {integrity: sha512-BDc3Q+4Q3zsn7k9xZrKfjWyJsSlEDMs38gD1qp2eDazLCdcPqAT+vq1ND+Z8AGel/UiwzNUk8ptpywgNQcJ1MQ==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
