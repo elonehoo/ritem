@@ -21,7 +21,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0
       react-router-dom: 6.6.2
-      rimraf: 3.0.2
+      rimraf: 4.4.1
       typescript: 4.9.4
       unbuild: 0.9.4
       unocss: 0.48.3
@@ -45,7 +45,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-router-dom: 6.6.2_biqbaboplfbrettd7655fr4n2y
-      rimraf: 3.0.2
+      rimraf: 4.4.1
       typescript: 4.9.4
       unbuild: 0.9.4
       unocss: 0.48.3_vite@3.2.5
@@ -63,7 +63,7 @@ importers:
       bumpp: 8.2.1
       react: 18.2.0
       react-dom: 18.2.0
-      rimraf: 3.0.2
+      rimraf: 4.4.1
       typescript: 4.9.4
       unbuild: 0.9.4
       unocss: 0.48.3
@@ -79,7 +79,7 @@ importers:
       bumpp: 8.2.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      rimraf: 3.0.2
+      rimraf: 4.4.1
       typescript: 4.9.4
       unbuild: 0.9.4
       unocss: 0.48.3_vite@3.2.5
@@ -97,7 +97,7 @@ importers:
       bumpp: 8.2.1
       react: 18.2.0
       react-dom: 18.2.0
-      rimraf: 3.0.2
+      rimraf: 4.4.1
       typescript: 4.9.4
       unbuild: 0.9.4
       unocss: 0.48.3
@@ -113,7 +113,7 @@ importers:
       bumpp: 8.2.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      rimraf: 3.0.2
+      rimraf: 4.4.1
       typescript: 4.9.4
       unbuild: 0.9.4
       unocss: 0.48.3_vite@3.2.5
@@ -131,7 +131,7 @@ importers:
       bumpp: 8.2.1
       react: 18.2.0
       react-dom: 18.2.0
-      rimraf: 3.0.2
+      rimraf: 4.4.1
       typescript: 4.9.4
       unbuild: 0.9.4
       unocss: 0.48.3
@@ -147,7 +147,7 @@ importers:
       bumpp: 8.2.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      rimraf: 3.0.2
+      rimraf: 4.4.1
       typescript: 4.9.4
       unbuild: 0.9.4
       unocss: 0.48.3_vite@3.2.5
@@ -165,7 +165,7 @@ importers:
       bumpp: 8.2.1
       react: 18.2.0
       react-dom: 18.2.0
-      rimraf: 3.0.2
+      rimraf: 4.4.1
       typescript: 4.9.4
       unbuild: 0.9.4
       unocss: 0.48.3
@@ -181,7 +181,7 @@ importers:
       bumpp: 8.2.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      rimraf: 3.0.2
+      rimraf: 4.4.1
       typescript: 4.9.4
       unbuild: 0.9.4
       unocss: 0.48.3_vite@3.2.5
@@ -2753,6 +2753,16 @@ packages:
       once: 1.4.0
     dev: true
 
+  /glob/9.3.4:
+    resolution: {integrity: sha512-qaSc49hojMOv1EPM4EuyITjDSgSKI0rthoHnvE81tcOi1SCVndHko7auqxdQ14eiQG2NDBJBE86+2xIrbIvrbA==}
+    engines: {node: '>=16 || 14 >=14.17'}
+    dependencies:
+      fs.realpath: 1.0.0
+      minimatch: 8.0.2
+      minipass: 4.2.5
+      path-scurry: 1.6.3
+    dev: true
+
   /globals/11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
     engines: {node: '>=4'}
@@ -3217,6 +3227,11 @@ packages:
       yallist: 4.0.0
     dev: true
 
+  /lru-cache/7.18.3:
+    resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
+    engines: {node: '>=12'}
+    dev: true
+
   /magic-string/0.26.7:
     resolution: {integrity: sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==}
     engines: {node: '>=12'}
@@ -3300,8 +3315,20 @@ packages:
       brace-expansion: 2.0.1
     dev: true
 
+  /minimatch/8.0.2:
+    resolution: {integrity: sha512-ikHGF67ODxj7vS5NKU2wvTsFLbExee+KXVCnBWh8Cg2hVJfBMQIrlo50qru/09E0EifjnU8dZhJ/iHhyXJM6Mw==}
+    engines: {node: '>=16 || 14 >=14.17'}
+    dependencies:
+      brace-expansion: 2.0.1
+    dev: true
+
   /minimist/1.2.6:
     resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
+    dev: true
+
+  /minipass/4.2.5:
+    resolution: {integrity: sha512-+yQl7SX3bIT83Lhb4BVorMAHVuqsskxRdlmO9kTpyukp8vsm2Sn/fUOV9xlnG8/a5JsypJzap21lz/y3FBMJ8Q==}
+    engines: {node: '>=8'}
     dev: true
 
   /mkdirp/1.0.4:
@@ -3586,6 +3613,14 @@ packages:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
     dev: true
 
+  /path-scurry/1.6.3:
+    resolution: {integrity: sha512-RAmB+n30SlN+HnNx6EbcpoDy9nwdpcGPnEKrJnu6GZoDWBdIjo1UQMVtW2ybtC7LC2oKLcMq8y5g8WnKLiod9g==}
+    engines: {node: '>=16 || 14 >=14.17'}
+    dependencies:
+      lru-cache: 7.18.3
+      minipass: 4.2.5
+    dev: true
+
   /path-type/4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
@@ -3826,6 +3861,14 @@ packages:
     hasBin: true
     dependencies:
       glob: 7.2.3
+    dev: true
+
+  /rimraf/4.4.1:
+    resolution: {integrity: sha512-Gk8NlF062+T9CqNGn6h4tls3k6T1+/nXdOcSZVikNVtlRdYpA7wRJJMoXmuvOnLW844rPjdQ7JgXCYM6PPC/og==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      glob: 9.3.4
     dev: true
 
   /rollup-plugin-dts/5.0.0_xxvdrp5rj4f7raibt77b65gz2y:
